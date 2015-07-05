@@ -1,6 +1,6 @@
 # One-time Password Generator
 
-A simple command line tool to generate TOTP([RFC 6238](https://tools.ietf.org/html/rfc6238), aka [Google Authenticator](https://en.wikipedia.org/wiki/Google_Authenticator)) based on (mdp/rotp)[https://github.com/mdp/rotp].
+A simple command line tool to generate TOTP([RFC 6238](https://tools.ietf.org/html/rfc6238), aka [Google Authenticator](https://en.wikipedia.org/wiki/Google_Authenticator)) based on [mdp/rotp](https://github.com/mdp/rotp).
 
 ## Prepare
 
