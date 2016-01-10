@@ -9,7 +9,7 @@ require 'colorize'
 #require "byebug"
 
 def copy_to_clipboard(input)
-  copy_command = (/darwin/ =~ RUBY_PLATFORM)!=nil ? "pbcopy" : "xcopy"
+  copy_command = (/darwin/ =~ RUBY_PLATFORM)!=nil ? "pbcopy" : "xclip"
   str = input.to_s
   IO.popen(copy_command, 'w') { |f| f << str  }
   puts "Copied.".green

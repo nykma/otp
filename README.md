@@ -43,6 +43,7 @@ SITE_NAME     : Secret key identifier specified in .otp.yml . For the example ab
 
 ## To-Do List
 
+- [x] Add support for X11 clipboard using `xclip`.
 - [ ] Add HOTP([RFC 4226](https://tools.ietf.org/html/rfc4226)) support.
 - [ ] Package it to [homebrew](http://brew.sh).
 
